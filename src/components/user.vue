@@ -1,10 +1,10 @@
 <template>
   <div class="user">
     <!-- 登录前 -->
-    <div @click="onOpenModal" class="login-trigger" v-if="!isLogin">
+    <!-- <div @click="onOpenModal" class="login-trigger" v-if="!isLogin">
       <i class="user-icon iconfont icon-yonghu" />
       <p class="user-name">未登录</p>
-    </div>
+    </div> -->
     <!-- 登录后 -->
     <div @click="onLogout" class="logined-user" v-else>
       <img v-lazy="$utils.genImgUrl(user.avatarUrl, 80)" class="avatar" />
