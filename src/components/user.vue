@@ -6,10 +6,10 @@
       <p class="user-name">未登录</p>
     </div> -->
     <!-- 登录后 -->
-    <div @click="onLogout" class="logined-user" v-else>
+    <!-- <div @click="onLogout" class="logined-user" v-else>
       <img v-lazy="$utils.genImgUrl(user.avatarUrl, 80)" class="avatar" />
       <p class="user-name">{{ user.nickname }}</p>
-    </div>
+    </div> -->
 
     <!-- 登录框 -->
     <el-dialog
