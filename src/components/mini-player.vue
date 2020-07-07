@@ -192,9 +192,9 @@ export default {
     togglePlayerShow() {
       this.setPlayerShow(!this.isPlayerShow)
     },
-    goGitHub() {
-      window.open("https://github.com/sl1673495/vue-netease-music")
-    },
+    // goGitHub() {
+    //   window.open("https://github.com/sl1673495/vue-netease-music")
+    // },
 
     ...mapMutations([
       "setCurrentTime",
