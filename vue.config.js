@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   publicPath: './',
-  outputDir: 'music',
+  outputDir: 'dist',
   configureWebpack: {
     devtool: isProd ? false: 'source-map',
     devServer: {
